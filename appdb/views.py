@@ -7,3 +7,6 @@ def home(request):
 
 def test(request):
     return HttpResponse("Hello! Test")
+
+def index(request):
+    return render(request, 'appdb/index.html')
